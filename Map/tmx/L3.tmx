@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="80" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="88">
+ <editorsettings>
+  <export target="../3.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Map" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../../Assets/basic-platformer-tileset_v1b.png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Background" width="80" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157,158,157,158,157,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157,158,0,0,0,0,0,0,0,0,0,0,0,0,
+4,5,165,5,4,166,4,5,165,5,4,5,6,0,0,0,157,158,157,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157,158,157,158,0,0,0,0,0,0,0,0,157,158,0,0,0,0,0,0,0,3,5,4,5,166,165,5,
+21,22,21,22,21,22,21,22,21,22,21,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,157,158,157,158,157,158,0,0,0,0,157,158,157,158,0,0,0,0,0,0,0,0,0,0,157,158,157,158,0,0,0,0,0,0,0,0,0,0,0,0,0,20,22,21,22,21,21,22,
+42,42,42,42,42,42,42,42,42,42,42,42,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,44,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,41,42,42,42,42,42,42,
+42,42,42,42,42,42,42,42,42,42,42,42,63,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,22,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,22,62,42,42,42,42,42,42
+</data>
+ </layer>
+ <objectgroup id="4" name="Entity">
+  <object id="13" name="Spike" type="spike" x="206.5" y="336.5" width="16" height="16"/>
+  <object id="14" name="Spike" type="spike" x="223.833" y="336.667" width="16" height="16"/>
+  <object id="15" name="Spike" type="spike" x="257.333" y="336.333" width="16" height="16"/>
+  <object id="16" name="Spike" type="spike" x="241" y="336.667" width="16" height="16"/>
+  <object id="17" name="Spike" type="spike" x="274.333" y="336.333" width="16" height="16"/>
+  <object id="20" name="Spike" type="spike" x="291.75" y="336.667" width="16" height="16"/>
+  <object id="21" name="Spike" type="spike" x="309.083" y="336.834" width="16" height="16"/>
+  <object id="22" name="Spike" type="spike" x="342.583" y="336.5" width="16" height="16"/>
+  <object id="23" name="Spike" type="spike" x="326.25" y="336.834" width="16" height="16"/>
+  <object id="24" name="Spike" type="spike" x="359.583" y="336.5" width="16" height="16"/>
+  <object id="25" name="Spike" type="spike" x="376.792" y="334.25" width="16" height="16"/>
+  <object id="26" name="Spike" type="spike" x="394.125" y="334.417" width="16" height="16"/>
+  <object id="27" name="Spike" type="spike" x="427.625" y="334.083" width="16" height="16"/>
+  <object id="28" name="Spike" type="spike" x="411.292" y="334.417" width="16" height="16"/>
+  <object id="29" name="Spike" type="spike" x="444.625" y="334.083" width="16" height="16"/>
+  <object id="30" name="Spike" type="spike" x="462.042" y="334.417" width="16" height="16"/>
+  <object id="31" name="Spike" type="spike" x="479.375" y="334.584" width="16" height="16"/>
+  <object id="32" name="Spike" type="spike" x="512.875" y="334.25" width="16" height="16"/>
+  <object id="33" name="Spike" type="spike" x="496.542" y="334.584" width="16" height="16"/>
+  <object id="34" name="Spike" type="spike" x="529.875" y="334.25" width="16" height="16"/>
+  <object id="35" name="Spike" type="spike" x="547.125" y="334.583" width="16" height="16"/>
+  <object id="36" name="Spike" type="spike" x="564.458" y="334.75" width="16" height="16"/>
+  <object id="37" name="Spike" type="spike" x="597.958" y="334.416" width="16" height="16"/>
+  <object id="38" name="Spike" type="spike" x="581.625" y="334.75" width="16" height="16"/>
+  <object id="39" name="Spike" type="spike" x="614.958" y="334.416" width="16" height="16"/>
+  <object id="40" name="Spike" type="spike" x="632.375" y="334.75" width="16" height="16"/>
+  <object id="41" name="Spike" type="spike" x="649.708" y="334.917" width="16" height="16"/>
+  <object id="42" name="Spike" type="spike" x="683.208" y="334.583" width="16" height="16"/>
+  <object id="43" name="Spike" type="spike" x="666.875" y="334.917" width="16" height="16"/>
+  <object id="44" name="Spike" type="spike" x="700.208" y="334.583" width="16" height="16"/>
+  <object id="45" name="Spike" type="spike" x="717.458" y="334.916" width="16" height="16"/>
+  <object id="46" name="Spike" type="spike" x="734.791" y="335.083" width="16" height="16"/>
+  <object id="47" name="Spike" type="spike" x="768.291" y="334.749" width="16" height="16"/>
+  <object id="48" name="Spike" type="spike" x="751.958" y="335.083" width="16" height="16"/>
+  <object id="49" name="Spike" type="spike" x="785.291" y="334.749" width="16" height="16"/>
+  <object id="50" name="Spike" type="spike" x="802.708" y="335.083" width="16" height="16"/>
+  <object id="51" name="Spike" type="spike" x="820.041" y="335.25" width="16" height="16"/>
+  <object id="52" name="Spike" type="spike" x="853.541" y="334.916" width="16" height="16"/>
+  <object id="53" name="Spike" type="spike" x="837.208" y="335.25" width="16" height="16"/>
+  <object id="54" name="Spike" type="spike" x="870.541" y="334.916" width="16" height="16"/>
+  <object id="55" name="Spike" type="spike" x="888.125" y="335.25" width="16" height="16"/>
+  <object id="56" name="Spike" type="spike" x="905.458" y="335.417" width="16" height="16"/>
+  <object id="57" name="Spike" type="spike" x="938.958" y="335.083" width="16" height="16"/>
+  <object id="58" name="Spike" type="spike" x="922.625" y="335.417" width="16" height="16"/>
+  <object id="59" name="Spike" type="spike" x="955.958" y="335.083" width="16" height="16"/>
+  <object id="60" name="Spike" type="spike" x="973.375" y="335.417" width="16" height="16"/>
+  <object id="61" name="Spike" type="spike" x="990.708" y="335.584" width="16" height="16"/>
+  <object id="62" name="Spike" type="spike" x="1024.21" y="335.25" width="16" height="16"/>
+  <object id="63" name="Spike" type="spike" x="1007.88" y="335.584" width="16" height="16"/>
+  <object id="64" name="Spike" type="spike" x="1041.21" y="335.25" width="16" height="16"/>
+  <object id="79" name="Spike" type="spike" x="1057.75" y="335.167" width="16" height="16"/>
+  <object id="80" name="Spike" type="spike" x="1091.25" y="334.833" width="16" height="16"/>
+  <object id="81" name="Spike" type="spike" x="1074.92" y="335.167" width="16" height="16"/>
+  <object id="82" name="Spike" type="spike" x="1108.25" y="334.833" width="16" height="16"/>
+  <object id="83" name="Spike" type="spike" x="1124.67" y="335.333" width="16" height="16"/>
+  <object id="84" name="Spike" type="spike" x="1141.67" y="335" width="16" height="16"/>
+  <object id="85" name="Spike" type="spike" x="1154.67" y="334.667" width="16" height="16"/>
+  <object id="86" name="Buddah" type="coin" x="397.333" y="131.333">
+   <ellipse/>
+  </object>
+  <object id="87" name="Buddah" type="coin" x="883" y="159">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Collide">
+  <object id="1" x="2.1665" y="211" width="201.167" height="154">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="2" x="204.916" y="351.5" width="969.667" height="15">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3" x="1171.92" y="210" width="108.167" height="157">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" x="256.916" y="193.5" width="63.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="352.166" y="161" width="95.167" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="512.417" y="209" width="95.167" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" x="672.417" y="209.5" width="62.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="833.167" y="193" width="62.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="897.167" y="208.5" width="62.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="801.167" y="177.5" width="30.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" x="1025.17" y="193" width="30.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" x="1057.17" y="178" width="30.667" height="14">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
